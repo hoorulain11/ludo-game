@@ -16,5 +16,4 @@ const result = document.getElementById('result');
 function onClick() {
     const diceRoll = Math.floor(Math.random() * 6) + 1;
     diceImg.src = images[diceRoll];
-    result.textContent = `you rolled ${diceRoll}`;
 }
